@@ -1,4 +1,4 @@
-This project compares three different chatbots trained on the writing of existentialist philosphers to see how the LLMs responses change with RAG.
+This project compares three different chatbots trained on the writing of various existentialist philosphers to see how the LLMs responses change with RAG.
 
 The three models include a bot running just an Ollama LLM without RAG, an Ollama model with RAG, and an OPENAI GPT-5.1 model with RAG.
 
