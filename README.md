@@ -1,5 +1,20 @@
-This project compares three different chatbots trained on the writing of various existentialist philosphers to see how the LLMs responses change with RAG.
+**Existentialist Chatbot Comparison**
+This project compares three different chatbot configurations—each trained or augmented with the writings of major existentialist philosophers—to observe how Retrieval-Augmented Generation (RAG) affects the style, depth, and consistency of LLM responses.
 
-The three models include a bot running just an Ollama LLM without RAG, an Ollama model with RAG, and an OPENAI GPT-5.1 model with RAG.
+**Models Compared**
 
-To run the code, install a venv and add your API keys.
+The system evaluates three chatbot setups:
+Ollama LLM (no RAG)
+A baseline chatbot running a local Ollama model without any external knowledge retrieval.
+Ollama LLM + RAG
+The same Ollama model, but enhanced with a Pinecone vector store and RAG pipeline to ground responses in curated existentialist texts.
+OpenAI GPT-5.1 + RAG
+A cloud-based chatbot using OpenAI’s GPT-5.1 model with a RAG layer for deeper philosophical grounding and richer text interpretation.
+
+**Goal of the Project**
+The aim is to analyze how each model behaves when exposed to existentialist source material:
+Do their tones become more “existentialist”?
+Do their interpretations become more accurate?
+How does retrieval influence style vs. reasoning?
+Does GPT-5.1 handle ambiguity differently than local LLMs?
+This enables controlled qualitative comparisons of model behavior with and without RAG.
