@@ -1,4 +1,5 @@
 **Existentialist Chatbot Comparison**
+
 This project compares three different chatbot configurations—each trained or augmented with the writings of major existentialist philosophers—to observe how Retrieval-Augmented Generation (RAG) affects the style, depth, and consistency of LLM responses.
 
 **Models Compared**
@@ -18,3 +19,12 @@ Do their interpretations become more accurate?
 How does retrieval influence style vs. reasoning?
 Does GPT-5.1 handle ambiguity differently than local LLMs?
 This enables controlled qualitative comparisons of model behavior with and without RAG.
+
+**RUNNING THE SCRIPT**
+
+1. Install a venv
+2. Install the requirements
+3. Set up API keys
+4. Run ingestion files to store vectos in Pinecone
+5. Have fun experimenting with the chatbots!
+
